@@ -8,7 +8,7 @@ GiftelleCMS is a Content Management System built using ASP.NET Core and Entity F
 - 🛍️ Vendor and Product management
 - 🧾 Orders and Order Items tracking
 - ⚙️ RESTful API with CRUD functionality
-- 📦 Code-first database setup using EF Core with SQL Server Express
+- 📦 Code-first database setup using EF Core
 
 ---
 
@@ -16,7 +16,6 @@ GiftelleCMS is a Content Management System built using ASP.NET Core and Entity F
 
 - ASP.NET Core 8.0
 - Entity Framework Core (Code First)
-- SQL Server 2022 Express
 - C#
 
 ---
