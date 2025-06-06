@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace GiftelleCMS.DTOs
+namespace GiftelleCMSbackend.DTO
 {
     public class OrderItemDTO
     {

@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace GiftelleCMS.DTOs
+namespace GiftelleCMSbackend.DTOs
 {
     public class ProductDTO
     {
-        public int ProductId { get; set; }
-        public string Name { get; set; }
-        public decimal Price { get; set; }
-        public int VendorId { get; set; }
+        public required int ProductId { get; set; }
+        public required string Name { get; set; }
+        public required decimal Price { get; set; }
+        public required int VendorId { get; set; }
     }
 }

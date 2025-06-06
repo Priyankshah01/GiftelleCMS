@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace GiftelleCMS.Data.Migrations
+namespace GiftelleCMSbackend.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

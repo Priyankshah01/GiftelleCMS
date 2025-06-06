@@ -1,19 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Numerics;
 
-namespace GiftelleCMS.Models
+namespace GiftelleCMSbackend.Models
 {
     public class Product
     {
         public int ProductId { get; set; }
-        public string Name { get; set; }
+        public required string Name { get; set; }
+
         [Precision(18, 2)]
         public decimal Price { get; set; }
 
         public int VendorId { get; set; }
-        public Vendor Vendor { get; set; }
+        public virtual Vendor Vendor { get; set; }
 
-        public ICollection<OrderItem> OrderItems { get; set; }
+        public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
     }
 }
-
